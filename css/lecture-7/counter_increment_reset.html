@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>counter-increment and reset</title>
+	<style type="text/css">
+		body{
+			counter-reset: section;
+		}
+		h3::before{
+			counter-increment: section;
+			content: "Part: " counter(section) " : - ";
+		}
+	</style>
+</head>
+<body>
+
+
+	<h1>Web desinging course</h1>
+	<h3>HTML</h3>
+	<h3>CSS</h3>
+	<h3>Java Script</h3>
+	<h3>J-Query</h3>
+	<h3>Bootstrap</h3>
+	<h3>HTML</h3>
+	<h3>CSS</h3>
+	<h3>Java Script</h3>
+	<h3>J-Query</h3>
+	<h3>Bootstrap</h3>
+
+</body>
+</html>

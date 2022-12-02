@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Before Effects</title>
+	<style type="text/css">
+
+		h1::before{
+			content: '';
+			height: 5px;
+			width: 0;
+			background: red;
+			position: absolute;
+			left: 2;
+			transition: 2s;
+			margin: auto;
+			display: block;
+		}
+		h1:hover::before{
+			width: 80px;
+		}
+	</style>
+</head>
+<body>
+
+
+
+		<h1>Home</h1>
+
+</body>
+</html>

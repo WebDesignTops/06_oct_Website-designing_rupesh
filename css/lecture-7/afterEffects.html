@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>After Effects</title>
+	<style type="text/css">
+		h1{
+			position: relative;
+		}
+		h1::after{
+			content: '';
+			height: 5px;
+			width: 0px;
+			background: blue;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			transition: 2s;
+		}
+		h1:hover::after{
+			width: 80px;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Home</h1>
+
+</body>
+</html>
